@@ -2,7 +2,7 @@
 
 ![Status do Projeto: Em Desenvolvimento](https://img.shields.io/badge/status-em%20desenvolvimento-yellow)
 
-COLOCAR UMA IMAGEM DA LOGO DA CODI CASH!
+<img src="./.github/Logo.png"/>
 
 O **Codi Cash** é um dashboard de controle financeiro desenvolvido pelo time **Codi Devs RB** (turma noturna da unidade Codi Academy Rio Branco) como parte do Codi Challenge Frontend de 2025. A aplicação permite o gerenciamento completo de despesas, vendas, equipe e folha de pagamento de forma intuitiva e eficiente.
 
@@ -71,7 +71,7 @@ $ cd CodiChallange
 $ npm install
 
 # Inicie o servidor do banco de dados (em um terminal)
-$ npx json-server --watch mock/db.json
+$ npm run mock
 
 # Inicie o servidor de desenvolvimento (em outro terminal)
 $ npm run dev
@@ -93,7 +93,7 @@ O projeto está estruturado da seguinte forma:
 ├── node_modules/
 ├── src/
 │   ├── assets/
-│   ├── Components/
+│   ├── components/
 │   │   ├── CodiStore/
 │   │   ├── Courses/
 │   │   ├── Dashboard/
@@ -116,7 +116,7 @@ O projeto está estruturado da seguinte forma:
 │   │   ├── Settings/
 │   │   ├── Team/
 │   ├── Routes/
-│   ├── Services/
+│   ├── services/
 │   │   ├── api/
 │   ├── App.tsx/
 │   ├── index.css/
