@@ -1,90 +1,146 @@
-# **Challenge - Projeto Codi Cash**
+# Codi Cash
 
-**Período do Challenge:** 29/04/2025 a 11/07/2025  
-**Projeto:** Sistema "Codi Cash"  
-**Objetivo:** Criar a interface (Front-end) completa e funcional de um software de gestão financeira voltado para as unidades da Codi Academy, considerando responsividade, usabilidade e integração futura com APIs.
+![Status do Projeto: Em Desenvolvimento](https://img.shields.io/badge/status-em%20desenvolvimento-yellow)
 
----
+COLOCAR UMA IMAGEM DA LOGO DA CODI CASH!
 
-## 1. Descrição Geral do Projeto
-
-O **Codi Cash** é um software de gestão financeira que visa facilitar o controle das finanças de cada unidade da Codi Academy. O sistema permitirá o cadastro, visualização e gestão de vendas, despesas e indicadores financeiros através de uma interface web moderna, responsiva e intuitiva.
+O **Codi Cash** é um dashboard de controle financeiro desenvolvido pelo time **Codi Devs RB** (turma noturna da unidade Codi Academy Rio Branco) como parte do Codi Challenge Frontend de 2025. A aplicação permite o gerenciamento completo de despesas, vendas, equipe e folha de pagamento de forma intuitiva e eficiente.
 
 ---
 
-## 2. Escopo do Desafio
+### 📋 Tabela de Conteúdos
 
-Vocês serão responsáveis por desenvolver **apenas o frontend** da aplicação, utilizando tecnologias modernas como **HTML, CSS (Tailwind ou Bootstrap), JavaScript (React ou Vanilla)**, garantindo:
-
-- Interfaces responsivas
-- Boa usabilidade
-- Componentização e reutilização de código
-- Estrutura limpa e organizada
-
----
-
-## 3. Funcionalidades Requeridas (Frontend)
-
-### 3.1. Dashboard Principal
-- Exibir resumos mensais de receitas, despesas e balanço
-- Gráficos de barras/linhas para mostrar dados por período (semana, mês, ano)
-- Cards com KPIs (Key performance indicators): *total de vendas*, *total de despesas*, *saldo líquido*
-
-### 3.2. Módulo de Vendas
-- Formulário de cadastro de venda:
-  - Tipo de curso: online ou presencial
-  - Cliente (nome, e-mail, telefone)
-  - Valor bruto
-  - Descontos aplicados
-  - Impostos, comissões e taxas de cartão
-  - Valor final da venda (após débitos automáticos)
-- Lista de vendas cadastradas com filtros por período e tipo de curso
-
-### 3.3. Módulo de Gastos
-- Cadastro de despesas fixas (luz, água, aluguel, internet, folha de pagamento, vale transporte, imposto sobre folha)
-- Cadastro de despesas variáveis (manutenção, suprimentos, etc.)
-- Edição e exclusão de lançamentos
-- Visualização de histórico de gastos
-
-### 3.4. Visualizações e Gráficos
-- Gráfico comparativo de receitas e despesas
-- Gráfico de pizza para distribuição de gastos
-- Filtros de visualização por intervalo de tempo e categoria
-
-### 3.5. Experiência do Usuário
-- Layout limpo, responsivo, com navegação intuitiva
-- Feedback visual para ações (ex: cadastro realizado, erro de preenchimento)
-- Utilização de modal para confirmações e formulários
+1.  [Sobre o Projeto](#-sobre-o-projeto)
+2.  [Funcionalidades](#-funcionalidades)
+3.  [Demonstração](#-demonstração)
+4.  [Tecnologias](#-tecnologias)
+5.  [Como Rodar o Projeto](#-como-rodar-o-projeto)
+6.  [Estrutura de Pastas](#-estrutura-de-pastas)
+7.  [Contribuição](#-contribuição)
+8.  [Licença](#-licença)
+9.  [Contribuidores](#-contribuidores)
 
 ---
 
-## 4. Requisitos Técnicos
+### 🎯 Sobre o Projeto
 
-- HTML5, CSS3 e JavaScript
-- TailwindCSS (ou outro framework de UI)
-- ReactJS (opcional, mas recomendado)
-- Responsividade obrigatória (mobile first)
-- Estrutura modular de componentes
+Este projeto foi criado para solucionar a necessidade de um controle financeiro centralizado e de fácil visualização para as franquias da Codi Academy. Com o Codi Cash, gestores podem tomar decisões mais assertivas baseadas em dados claros e atualizados sobre as finanças da empresa.
 
----
+### ✨ Funcionalidades
 
-## 5. Critérios de Avaliação
+- ✅ **Dashboard Principal**: Visualização rápida dos principais indicadores financeiros.
+- ✅ **Controle de Gastos**: Adicione, edite e categorize todas as despesas.
+- ✅ **Controle de Vendas**: Registre vendas e acompanhe a receita.
+- ✅ **Gerenciamento de Equipe**: Administre os membros da equipe e suas funções.
+- ✅ **Folha de Pagamento**: Calcule e gerencie os salários da equipe.
+- 🚧 Banco de Dados _(em desenvolvimento)_
 
-- Interface responsiva e funcional
-- Boa organização do código
-- Reutilização de componentes
-- Alinhamento com a proposta do desafio
-- Apresentação final do projeto (pitch ou demonstração em vídeo)
+### 📸 Demonstração
 
----
+|                                Tela de Login                                |                                  Dashboard Principal                                  |                                  Responsivo                                  |
+| :-------------------------------------------------------------------------: | :-----------------------------------------------------------------------------------: | :--------------------------------------------------------------------------: |
+| <img src="./docs/assets/PreviewLogin.png" alt="Tela de Login" width="250"/> | <img src="./docs/assets/PreviewDashboard.png" alt="Dashboard Principal" width="250"/> | <img src="./docs/assets/PreviewMobile.png" alt="Versão Mobile" width="250"/> |
 
-## 6. Entregáveis
+### 🚀 Tecnologias
 
-- Código-fonte neste repositório GitHub onde está a documentação
-- Link do deploy (Vercel, Netlify ou outro)
-- Documentação de como rodar localmente
-- Documentação do frontend
-- Apresentação final
+- [![React](https://img.shields.io/badge/-React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)](https://reactjs.org/)
+- [![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
+- [![Tailwind CSS](https://img.shields.io/badge/-TailwindCSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)](https://tailwindcss.com/)
+- [![Vite](https://img.shields.io/badge/-Vite-646CFF?style=for-the-badge&logo=vite&logoColor=FFD62E)](https://vitejs.dev/)
 
----
+### ⚡ Como Rodar o Projeto
 
+#### Pré-requisitos
+
+Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas:
+
+- [Node.js](https://nodejs.org/)
+- [Git](https://git-scm.com/)
+- Um gerenciador de pacotes como [NPM](https://www.npmjs.com/).
+
+#### Passo a passo
+
+```bash
+# Clone este repositório
+$ git clone [https://github.com/CodiChallange/CodiChallange.git](https://github.com/CodiChallange/CodiChallange.git)
+
+# Acesse a pasta do projeto
+$ cd CodiChallange
+
+# Instale as dependências
+$ npm install
+
+# Inicie o servidor do banco de dados (em um terminal)
+$ npx json-server --watch mock/db.json
+
+# Inicie o servidor de desenvolvimento (em outro terminal)
+$ npm run dev
+
+# O servidor iniciará na porta 5173. Acesse http://localhost:5173
+```
+
+#Login
+$ Email: teste@teste.com
+$ Senha: 123456
+
+## 📂 Estrutura de Pastas
+
+O projeto está estruturado da seguinte forma:
+
+```
+├── mock/
+│   ├── db.json/
+├── node_modules/
+├── src/
+│   ├── assets/
+│   ├── Components/
+│   │   ├── CodiStore/
+│   │   ├── Courses/
+│   │   ├── Dashboard/
+│   │   ├── Expenses/
+│   │   ├── Reports/
+│   │   ├── Sales/
+│   │   ├── Settings/
+│   │   ├── Team/
+│   │   ├── ui/
+│   ├── http/
+│   ├── lib/
+│   ├── Pages/
+│   │   ├── CodiStore/
+│   │   ├── Courses/
+│   │   ├── Dashboard/
+│   │   ├── Expenses/
+│   │   ├── Login/
+│   │   ├── Reports/
+│   │   ├── Sales/
+│   │   ├── Settings/
+│   │   ├── Team/
+│   ├── Routes/
+│   ├── Services/
+│   │   ├── api/
+│   ├── App.tsx/
+│   ├── index.css/
+│   └── main.tsx
+│   .gitignore
+└── ...
+```
+
+## 🙌 Contribuição
+
+Contribuições são o que tornam a comunidade de código aberto um lugar incrível para aprender, inspirar e criar. Qualquer contribuição que você fizer será muito apreciada!
+
+**1.** Faça um fork do projeto.
+**2.** Crie uma nova branch `(git checkout -b feature/sua-feature)`.
+**3.** Faça o commit das suas alterações `(git commit -m 'feat: Adiciona sua feature')`.
+**4.** Envie para a branch original `(git push origin feature/sua-feature)`.
+**5.** Abra um Pull Request.
+
+## 📄 Licença
+
+Este projeto está sob a licença MIT. Veja o arquivo LICENSE.md para mais detalhes. (EDITAR/FAZER)
+
+## 💜 Contribuidores
+
+Feito com muito empenho pela equipe **Codi Devs RB**, composta por:
+
+> • [Eduardo Hill](https://github.com/EduardoHill) • [Gabriel Souza](https://github.com/HiiroHK) • [Hellisson Roberto](https://github.com/HelissonRobertoSilva08) • [Jander Figueiredo](https://github.com/Janderff) • [Lucas Crisostomo](https://github.com/cr1sostomo) • [Max Honório](https://github.com/maxhonorio) • [Raila Guia](https://github.com/railaguia) • [Vanessa Samuel](https://github.com/vanessamuels)
