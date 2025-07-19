@@ -35,12 +35,6 @@ Este projeto foi criado para solucionar a necessidade de um controle financeiro 
 - ✅ **Folha de Pagamento**: Calcule e gerencie os salários da equipe.
 - 🚧 Banco de Dados _(em desenvolvimento)_
 
-### 📸 Demonstração
-
-|                                Tela de Login                                |                                  Dashboard Principal                                  |                                  Responsivo                                  |
-| :-------------------------------------------------------------------------: | :-----------------------------------------------------------------------------------: | :--------------------------------------------------------------------------: |
-| <img src="./docs/assets/PreviewLogin.png" alt="Tela de Login" width="250"/> | <img src="./docs/assets/PreviewDashboard.png" alt="Dashboard Principal" width="250"/> | <img src="./docs/assets/PreviewMobile.png" alt="Versão Mobile" width="250"/> |
-
 ### 🚀 Tecnologias
 
 - [![React](https://img.shields.io/badge/-React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)](https://reactjs.org/)
